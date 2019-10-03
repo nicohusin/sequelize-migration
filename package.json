@@ -1,0 +1,22 @@
+{
+  "name": "sequelize-migration",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node server",
+    "dev":"nodemon server"
+
+  },
+  "author": "Nico Husin",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "express": "^4.17.1",
+    "mysql2": "^1.7.0",
+    "sequelize": "^5.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
