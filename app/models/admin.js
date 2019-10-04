@@ -7,6 +7,7 @@ module.exports = (sequelize, DataTypes) => {
   }, {});
   admin.associate = function(models) {
     // associations can be defined here
+    admin.hasMany(models.blog)
   };
   return admin;
 };
